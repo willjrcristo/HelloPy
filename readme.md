@@ -31,3 +31,13 @@ A mensagem apareceu no terminal!
 Escrevi esse passo a passo e agora vou dar o commit inicial do projeto.
 
 Depois vou encontrar um mote para o projeto, algo que o python seja particularmente bom, como IoT por exemplo.. Veremos..
+
+``` Commit Inicial ```
+
+No terminal do VSCode dei os comandos do git (já tive algumas bizarrices com UI do Git, mais especificamente SourceTree, e a gente não fica tão dependente de ferramentas de terceiros, embora eu use bastante o plugin do próprio vscode :)
+
+git status
+git add .
+git commit -m "Texto explicativo"
+
+É bom manter uma disciplina de commitar sempre que tiver algum avanço importante, criar branchs de feature quando for começar alguma tarefa, pois normalmente essa tarefa requer vários passos, e a cada passo, um commit.

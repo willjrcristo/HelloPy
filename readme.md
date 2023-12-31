@@ -41,3 +41,5 @@ git add .
 git commit -m "Texto explicativo"
 
 É bom manter uma disciplina de commitar sempre que tiver algum avanço importante, criar branchs de feature quando for começar alguma tarefa, pois normalmente essa tarefa requer vários passos, e a cada passo, um commit.
+
+E para subir as alterações, git push, mas no primeiro o git pede para adicionar o --set-upstream origin master (provavelmente porque eu não havia feito checkout na branch, apenas joguei os arquivos lá, comitei e fui empurrando... Mas aí o git pede para você explicitar pra onde você quer subir, no meu caso, por ser um commit inicial, vai na master mesmo.. Mas em um ambiente a vera, provavelmente haverá a necessidade de fazer Pull Request usando uma branch intermediária, pra ficar mais fácil de desfazer caso algo dê errado com esse novo código que está subindo)
